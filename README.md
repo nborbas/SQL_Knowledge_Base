@@ -18,13 +18,15 @@ In this repo, I'm sharing my notes from the [DataCamp](https://datacamp.com/) co
       -  WHERE
  
 - **1. Joining Data** (based on course: Joining Data in SQL)
-  - XXX
-  - XXX
+  - Joins (Inner, Left, Right, Outer (Full), Intersect, Except, Anti, Semi)
+  - CASE-WHEN-THEN-ELSE-END
+  - Basic Subqueries (in WHERE, FROM and SELECT statements)
 
 - **2. Intermediate SQL** (based on course: Intermediate SQL)
-  - XXX
-  - XXX
-  - XXX
+  - CASE-WHEN-THEN-ELSE-END advanced
+  - Subqueries (WHERE, FROM, SELECT, Correlated, Nested)
+  - Common Table Expressions (CTE)
+  - Window Functions (RANK, OVER, PARTITION BY, ROWS BETWEEN)
 
 - **3. Aggregation & Window Functions** (based on course: PostreSQL Summary Stats and Window Functions)
   - XXX
