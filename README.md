@@ -28,10 +28,17 @@ In this repo, I'm sharing my notes from the [DataCamp](https://datacamp.com/) co
   - Common Table Expressions (CTE)
   - Window Functions (RANK, OVER, PARTITION BY, ROWS BETWEEN)
 
-- **3. Aggregation & Window Functions** (based on course: PostreSQL Summary Stats and Window Functions)
-  - XXX
-  - XXX
-  - XXX
+- **3. Aggregation & Window Functions** (based on course: PostgreSQL Summary Stats and Window Functions)
+  - ROW_NUMBER()
+  - LAG() & LEAD()
+  - FIRST_VALUE() & LAST_VALUE()
+  - Ranking: RANK() & DENSE_RANK()
+  - Paging: NTILE()
+  - Running Sums / Moving Calculations
+  - Pivotting: CROSSTAB($$...$$)
+  - Subtotals: ROLLUP() & CUBE()
+  - Handling NULL values: COALESCE()
+  - String "aggregation": STRING_AGG()
 
 - **4. Data Manipulation** (based on course: Functions for Manipulating Data in PostgreSQL)
   - XXX
