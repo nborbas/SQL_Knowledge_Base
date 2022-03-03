@@ -32,7 +32,7 @@ WITH Athlete_Medals AS (
   GROUP BY Athlete)
 
 SELECT
-  Athlete,
+  Athlete, 
   ROW_NUMBER() OVER (ORDER BY Medals DESC) AS Row_N
 FROM Athlete_Medals
 ORDER BY Medals DESC;
@@ -55,7 +55,7 @@ SELECT
   Country AS Champion,
   LAG(Country) OVER (PARTITION BY gender, event
             ORDER BY Year ASC) AS Last_Champion
-FROM Gold
+FROM Gold 
 ORDER BY Event ASC, Gender ASC, Year ASC;
 
 -- ----------------------------------------
