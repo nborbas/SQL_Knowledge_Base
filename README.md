@@ -1,6 +1,6 @@
 # SQL Knowledge Base
 
-In this repo, I'm sharing my notes from the [DataCamp](https://datacamp.com/) courses that I gathered during participation in the **SQL Fundemantals** and **SQL for Business Analysts** tracks.
+In this repo, I share my notes from the [DataCamp](https://datacamp.com/) courses that I gathered during participation in the **Data Analyst with SQL**, **SQL Fundemantals** and **SQL for Business Analysts** tracks.
 
 ## Content
 - **0. Basic Functions** (based on course: Introduction to SQL)
