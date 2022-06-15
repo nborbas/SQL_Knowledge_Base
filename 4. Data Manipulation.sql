@@ -381,3 +381,4 @@ SELECT
 FROM film 
 WHERE to_tsvector(description) @@ to_tsquery('Astounding & Drama') 
 ORDER BY similarity(description, 'Astounding Drama') DESC;
+
