@@ -53,10 +53,12 @@ In this repo, I share my notes from the [DataCamp](https://datacamp.com/) course
   - Shorten Long Strings
   - Date/Time Types and Formats: "::interval", DATE_PART(), TO_CHAR(), EXTRACT( FROM ), DATE_TRUNC(), GENERATE_SERIES(), LAG() OVER (ORDER BY ), LEAD() OVER (ORDER BY )
 
-- **6. Grouping & Nested Queries** (based on course: Data-Driven Decision Making in SQL)
-  - XXX
-  - XXX
-  - XXX
+- **6. Grouping & Nested Queries** - CASE STUDY (based on course: Data-Driven Decision Making in SQL)
+  - Exploring Tables
+  - Simple Queries (incl. Subqueries)
+  - Nested Queries - "Normal and with EXISTS()
+  - Queries with UNION and INTERSECT
+  - OLAP (Online Analytical Processing) Queries: CUBE(), ROLLUP(), GROUPING SETS()
 
 - **7. Real World SQL** (based on course: Applying SQL to Real-World Problems)
   - XXX
