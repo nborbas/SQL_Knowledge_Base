@@ -25,7 +25,7 @@ In this repo, I share my notes from the [DataCamp](https://datacamp.com/) course
   - Ranking: RANK() & DENSE_RANK()
   - Paging: NTILE()
   - Running Sums / Moving Calculations
-  - Pivotting: CROSSTAB($$)
+  - Pivoting: CROSSTAB($$ 'Query' $$)
   - Subtotals: ROLLUP() & CUBE()
   - Handling NULL values: COALESCE()
   - String "aggregation": STRING_AGG()
@@ -60,15 +60,20 @@ In this repo, I share my notes from the [DataCamp](https://datacamp.com/) course
   - Queries with UNION and INTERSECT
   - OLAP (Online Analytical Processing) Queries: CUBE(), ROLLUP(), GROUPING SETS()
 
-- **7. Real World SQL** (based on course: Applying SQL to Real-World Problems)
-  - XXX
-  - XXX
-  - XXX
+- **7. Real World SQL** - CASE STUDY (based on course: Applying SQL to Real-World Problems)
+  - Finding the Data using Database Tables: pg_catalog.pg_tables, information_schema.columns
+  - Storing the Data: CREATE TABLE (), INSERT INTO () VALUES (), UPDATE SET, DELETE FROM
+  - Best Practices to Write SQL
 
-- **8. Business Data Analysis** (based on course: Analyzing Business Data in SQL)
-  - XXX
-  - XXX
-  - XXX
+- **8. Business Data Analysis** - CASE STUDY (based on course: Analyzing Business Data in SQL)
+  - Calculating Revenue & Profit
+  - Calculating Registrations & MAU (Monthly Active Users)
+  - Calculating Retention
+  - Calculating Unit Economics (e.g. ARPU - Average Revenue Per User)
+  - Calculating Values for Histograms, Bucketing
+  - Calculating Percentiles
+  - Formatting
+  - Pivoting: CREATE EXTENSION IF NOT EXISTS tablefunc, CROSSTAB($$ 'Query' $$)
 
 - **9. Data Reporting** (based on course: Reporting in SQL)
   - XXX
