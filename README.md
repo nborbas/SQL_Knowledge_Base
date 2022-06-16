@@ -1,36 +1,43 @@
 # SQL Knowledge Base
 
-In this repo, I share my notes from the [DataCamp](https://datacamp.com/) courses that I gathered during participation in the **Data Analyst with SQL**, **SQL Fundemantals** and **SQL for Business Analysts** tracks.
+## Introduction
+In this repo, I share my **SQL query notes** that were gathered during enrollment in the following [DataCamp](https://datacamp.com/) learning tracks: 
+  - **Data Analyst with SQL**
+  - **SQL for Business Analysts**
+  - **SQL Fundemantals**
+
+The .sql files contain only query examples in order to learn how scripts are built up, what the syntaxes are etc.  
+No data is attached here, but feel free to try out the statements/functions for your own dataset.  
 
 ## Content
-- **0. Basic Functions** (based on course: Introduction to SQL)
+#### **0. Basic Functions** (based on course: Introduction to SQL)
   -  Aggregate functions (SUM, AVG, MIN, MAX)
   -  Introduction of below statements / functions (ABC order): AS, BETWEEN, GROUP BY, HAVING, LIKE & NOT LIKE, LIMIT, NULL & NOT NULL, ORDER BY, SELECT, WHERE
  
-- **1. Joining Data** (based on course: Joining Data in SQL)
+#### **1. Joining Data** (based on course: Joining Data in SQL)
   - Joins (Inner, Left, Right, Outer (Full), Intersect, Except, Anti, Semi)
   - CASE-WHEN-THEN-ELSE-END
   - Basic Subqueries (in WHERE, FROM and SELECT statements)
 
-- **2. Intermediate SQL** (based on course: Intermediate SQL)
+#### **2. Intermediate SQL** (based on course: Intermediate SQL)
   - CASE-WHEN-THEN-ELSE-END advanced
   - Subqueries (WHERE, FROM, SELECT, Correlated, Nested)
   - Common Table Expressions (CTE)
   - Window Functions (RANK, OVER, PARTITION BY, ROWS BETWEEN)
 
-- **3. Aggregation & Window Functions** (based on course: PostgreSQL Summary Stats and Window Functions)
+#### **3. Aggregation & Window Functions** (based on course: PostgreSQL Summary Stats and Window Functions)
   - ROW_NUMBER()
   - LAG() & LEAD()
   - FIRST_VALUE() & LAST_VALUE()
   - Ranking: RANK() & DENSE_RANK()
   - Paging: NTILE()
   - Running Sums / Moving Calculations
-  - Pivoting: CROSSTAB($$ 'Query' $$)
+  - Pivoting: CROSSTAB($$)
   - Subtotals: ROLLUP() & CUBE()
   - Handling NULL values: COALESCE()
   - String "aggregation": STRING_AGG()
 
-- **4. Data Manipulation** (based on course: Functions for Manipulating Data in PostgreSQL)
+#### **4. Data Manipulation** (based on course: Functions for Manipulating Data in PostgreSQL)
   - System Databases (information_schema.tables, information_schema.columns,
   - Arrays (ANY(), ARRAY[ ]) 
   - Date / Time: INTERVAL, AGE(), NOW(), CURRENT_DATE, CURRENT_TIMESTAMP, EXTRACT( FROM ), DATE_TRUNC()
@@ -40,7 +47,7 @@ In this repo, I share my notes from the [DataCamp](https://datacamp.com/) course
   - Postgres Extensions: pg_trgm, fuzzystrmatch
   - Postgres Extensions statements/clauses: CREATE EXTENSION IF NOT EXISTS, SIMILARITY(), LEVENSHTEIN()
 
-- **5. Exploratory Data Analysis (EDA)** (based on course: Exploratory Data Analysis in SQL)
+#### **5. Exploratory Data Analysis (EDA)** (based on course: Exploratory Data Analysis in SQL)
   - Identifying missing data
   - Foreign keys
   - Handling NULL values: COALESCE()
@@ -53,19 +60,19 @@ In this repo, I share my notes from the [DataCamp](https://datacamp.com/) course
   - Shorten Long Strings
   - Date/Time Types and Formats: "::interval", DATE_PART(), TO_CHAR(), EXTRACT( FROM ), DATE_TRUNC(), GENERATE_SERIES(), LAG() OVER (ORDER BY ), LEAD() OVER (ORDER BY )
 
-- **6. Grouping & Nested Queries** - CASE STUDY (based on course: Data-Driven Decision Making in SQL)
+#### **6. Grouping & Nested Queries** - CASE STUDY (based on course: Data-Driven Decision Making in SQL)
   - Exploring Tables
   - Simple Queries (incl. Subqueries)
   - Nested Queries - "Normal and with EXISTS()
   - Queries with UNION and INTERSECT
   - OLAP (Online Analytical Processing) Queries: CUBE(), ROLLUP(), GROUPING SETS()
 
-- **7. Real World SQL** - CASE STUDY (based on course: Applying SQL to Real-World Problems)
+#### **7. Real World SQL** - CASE STUDY (based on course: Applying SQL to Real-World Problems)
   - Finding the Data using Database Tables: pg_catalog.pg_tables, information_schema.columns
   - Storing the Data: CREATE TABLE (), INSERT INTO () VALUES (), UPDATE SET, DELETE FROM
   - Best Practices to Write SQL
 
-- **8. Business Data Analysis** - CASE STUDY (based on course: Analyzing Business Data in SQL)
+#### **8. Business Data Analysis** - CASE STUDY (based on course: Analyzing Business Data in SQL)
   - Calculating Revenue & Profit
   - Calculating Registrations & MAU (Monthly Active Users)
   - Calculating Retention
@@ -73,9 +80,9 @@ In this repo, I share my notes from the [DataCamp](https://datacamp.com/) course
   - Calculating Values for Histograms, Bucketing
   - Calculating Percentiles
   - Formatting
-  - Pivoting: CREATE EXTENSION IF NOT EXISTS tablefunc, CROSSTAB($$ 'Query' $$)
+  - Pivoting: CREATE EXTENSION IF NOT EXISTS tablefunc, CROSSTAB($$)
 
-- **9. Data Reporting** (based on course: Reporting in SQL)
+#### **9. Data Reporting** (based on course: Reporting in SQL)
   - XXX
   - XXX
   - XXX
