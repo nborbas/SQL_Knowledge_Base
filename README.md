@@ -6,7 +6,7 @@ In this repo, I share my **SQL query notes** that were gathered during enrollmen
   - **SQL for Business Analysts**
   - **SQL Fundemantals**
 
-The .sql files contain only query examples in order to learn how scripts are built up, what the syntaxes are etc.  
+The .sql files contain only query examples (*all credit to [DataCamp](https://datacamp.com/), only applied slight modifications*) in order to learn how scripts are built up, what the syntaxes are etc.  
 No data is attached here, but feel free to try out the statements/functions for your own dataset.  
 
 ## Content
