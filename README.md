@@ -82,7 +82,8 @@ No data is attached here, but feel free to try out the statements/functions for 
   - Formatting
   - Pivoting: CREATE EXTENSION IF NOT EXISTS tablefunc, CROSSTAB($$)
 
-#### **9. Data Reporting** (based on course: Reporting in SQL)
-  - XXX
-  - XXX
-  - XXX
+#### **9. Data Reporting** - CASE STUDY (based on course: Reporting in SQL)
+  - Base Reporting
+  - Combining Tables, Creating Custom Fields
+  - Cleaning & Validation: CAST( AS ), LOWER(), LEFT(), INITCAP(), SUBSTRING( FROM ), REPLACE(), COALESCE()
+  - Complex Calculations: SUM() OVER (PARTITION BY ), ROW NUMBER() OVER (PARTITION BY  ORDER BY  DESC), LAG(), LEAD()
