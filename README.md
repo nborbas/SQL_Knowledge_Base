@@ -11,8 +11,8 @@ No data is attached here, but feel free to try out the statements/functions for 
 
 ## Content
 #### **0. Basic Functions** (based on course: Introduction to SQL)
-  -  Aggregate functions (SUM, AVG, MIN, MAX)
-  -  Introduction of below statements / functions (ABC order): AS, BETWEEN, GROUP BY, HAVING, LIKE & NOT LIKE, LIMIT, NULL & NOT NULL, ORDER BY, SELECT, WHERE
+  -  Aggregate functions (*SUM, AVG, MIN, MAX*)
+  -  Introduction of below statements / functions (ABC order): *AS, BETWEEN, GROUP BY, HAVING, LIKE & NOT LIKE, LIMIT, NULL & NOT NULL, ORDER BY, SELECT, WHERE*
  
 #### **1. Joining Data** (based on course: Joining Data in SQL)
   - Joins (Inner, Left, Right, Outer (Full), Intersect, Except, Anti, Semi)
@@ -23,53 +23,53 @@ No data is attached here, but feel free to try out the statements/functions for 
   - CASE-WHEN-THEN-ELSE-END advanced
   - Subqueries (WHERE, FROM, SELECT, Correlated, Nested)
   - Common Table Expressions (CTE)
-  - Window Functions (RANK, OVER, PARTITION BY, ROWS BETWEEN)
+  - Window Functions (*RANK, OVER, PARTITION BY, ROWS BETWEEN*)
 
 #### **3. Aggregation & Window Functions** (based on course: PostgreSQL Summary Stats and Window Functions)
-  - ROW_NUMBER()
-  - LAG() & LEAD()
-  - FIRST_VALUE() & LAST_VALUE()
-  - Ranking: RANK() & DENSE_RANK()
-  - Paging: NTILE()
+  - *ROW_NUMBER()*
+  - *LAG() & LEAD()*
+  - *FIRST_VALUE() & LAST_VALUE()*
+  - Ranking: *RANK() & DENSE_RANK()*
+  - Paging: *NTILE()*
   - Running Sums / Moving Calculations
-  - Pivoting: CROSSTAB($$)
-  - Subtotals: ROLLUP() & CUBE()
-  - Handling NULL values: COALESCE()
-  - String "aggregation": STRING_AGG()
+  - Pivoting: *CROSSTAB($$)*
+  - Subtotals: *ROLLUP() & CUBE()*
+  - Handling NULL values: *COALESCE()*
+  - String "aggregation": *STRING_AGG()*
 
 #### **4. Data Manipulation** (based on course: Functions for Manipulating Data in PostgreSQL)
   - System Databases (information_schema.tables, information_schema.columns,
-  - Arrays (ANY(), ARRAY[ ]) 
-  - Date / Time: INTERVAL, AGE(), NOW(), CURRENT_DATE, CURRENT_TIMESTAMP, EXTRACT( FROM ), DATE_TRUNC()
-  - Text Manipulation: CONCAT(), UPPER(), LOWER(), INITCAP(), REPLACE(), CHAR_LENGTH(), LEFT(), REVERSE(LEFT()), SUBSTRING( FROM POSITION( IN ) FOR ), RPAD(), LPAD(), TRIM()
-  - Text Search: LIKE, NOT LIKE, TO_TSVECTOR(), @@ TSQUERY()
-  - User-defined Data Types: CREATE TYPE, ENUM()
+  - Arrays (*ANY(), ARRAY[ ]*) 
+  - Date / Time: *INTERVAL, AGE(), NOW(), CURRENT_DATE, CURRENT_TIMESTAMP, EXTRACT( FROM ), DATE_TRUNC()*
+  - Text Manipulation: *CONCAT(), UPPER(), LOWER(), INITCAP(), REPLACE(), CHAR_LENGTH(), LEFT(), REVERSE(LEFT()), SUBSTRING( FROM POSITION( IN ) FOR ), RPAD(), LPAD(), TRIM()*
+  - Text Search: *LIKE, NOT LIKE, TO_TSVECTOR(), @@ TSQUERY()*
+  - User-defined Data Types: *CREATE TYPE, ENUM()*
   - Postgres Extensions: pg_trgm, fuzzystrmatch
-  - Postgres Extensions statements/clauses: CREATE EXTENSION IF NOT EXISTS, SIMILARITY(), LEVENSHTEIN()
+  - Postgres Extensions statements/clauses: *CREATE EXTENSION IF NOT EXISTS, SIMILARITY(), LEVENSHTEIN()*
 
 #### **5. Exploratory Data Analysis (EDA)** (based on course: Exploratory Data Analysis in SQL)
   - Identifying missing data
   - Foreign keys
-  - Handling NULL values: COALESCE()
-  - Change Data Type: CAST()
-  - Distribution, Generating Bins: TRUNC(), GENERATE_SERIES()
-  - Aggregating Data: MIN(), AVG(), MAX(), STDDEV(), CORR(), PERCENTILE_DISC() WITHIN GROUP (ORDER BY )
-  - Creating a TEMP Table: DROP TABLE IF EXISTS, CREATE TEMP TABLE AS, INSERT INTO, UPDATE, SET
+  - Handling NULL values: *COALESCE()*
+  - Change Data Type: *CAST()*
+  - Distribution, Generating Bins: *TRUNC(), GENERATE_SERIES()*
+  - Aggregating Data: *MIN(), AVG(), MAX(), STDDEV(), CORR(), PERCENTILE_DISC() WITHIN GROUP (ORDER BY )*
+  - Creating a TEMP Table: *DROP TABLE IF EXISTS, CREATE TEMP TABLE AS, INSERT INTO, UPDATE, SET*
   - Counting Categories
-  - Working with unstructured text: TRIM(), LTRIM(), RTRIM(), LIKE, ILIKE, CONCAT(), SPLIT_PART()
+  - Working with unstructured text: *TRIM(), LTRIM(), RTRIM(), LIKE, ILIKE, CONCAT(), SPLIT_PART()*
   - Shorten Long Strings
-  - Date/Time Types and Formats: "::interval", DATE_PART(), TO_CHAR(), EXTRACT( FROM ), DATE_TRUNC(), GENERATE_SERIES(), LAG() OVER (ORDER BY ), LEAD() OVER (ORDER BY )
+  - Date/Time Types and Formats: *"::interval", DATE_PART(), TO_CHAR(), EXTRACT( FROM ), DATE_TRUNC(), GENERATE_SERIES(), LAG() OVER (ORDER BY ), LEAD() OVER (ORDER BY )*
 
 #### **6. Grouping & Nested Queries** - CASE STUDY (based on course: Data-Driven Decision Making in SQL)
   - Exploring Tables
   - Simple Queries (incl. Subqueries)
-  - Nested Queries - "Normal and with EXISTS()
-  - Queries with UNION and INTERSECT
-  - OLAP (Online Analytical Processing) Queries: CUBE(), ROLLUP(), GROUPING SETS()
+  - Nested Queries - "Normal" and with *EXISTS()*
+  - Queries with *UNION and INTERSECT*
+  - OLAP (Online Analytical Processing) Queries: *CUBE(), ROLLUP(), GROUPING SETS()*
 
 #### **7. Real World SQL** - CASE STUDY (based on course: Applying SQL to Real-World Problems)
   - Finding the Data using Database Tables: pg_catalog.pg_tables, information_schema.columns
-  - Storing the Data: CREATE TABLE (), INSERT INTO () VALUES (), UPDATE SET, DELETE FROM
+  - Storing the Data: *CREATE TABLE (), INSERT INTO () VALUES (), UPDATE SET, DELETE FROM*
   - Best Practices to Write SQL
 
 #### **8. Business Data Analysis** - CASE STUDY (based on course: Analyzing Business Data in SQL)
@@ -80,10 +80,10 @@ No data is attached here, but feel free to try out the statements/functions for 
   - Calculating Values for Histograms, Bucketing
   - Calculating Percentiles
   - Formatting
-  - Pivoting: CREATE EXTENSION IF NOT EXISTS tablefunc, CROSSTAB($$)
+  - Pivoting: *CREATE EXTENSION IF NOT EXISTS tablefunc, CROSSTAB($$)*
 
 #### **9. Data Reporting** - CASE STUDY (based on course: Reporting in SQL)
   - Base Reporting
   - Combining Tables, Creating Custom Fields
-  - Cleaning & Validation: CAST( AS ), LOWER(), LEFT(), INITCAP(), SUBSTRING( FROM ), REPLACE(), COALESCE()
-  - Complex Calculations: SUM() OVER (PARTITION BY ), ROW NUMBER() OVER (PARTITION BY  ORDER BY  DESC), LAG(), LEAD()
+  - Cleaning & Validation: *CAST( AS ), LOWER(), LEFT(), INITCAP(), SUBSTRING( FROM ), REPLACE(), COALESCE()*
+  - Complex Calculations: *SUM() OVER (PARTITION BY ), ROW NUMBER() OVER (PARTITION BY  ORDER BY  DESC), LAG(), LEAD()*
